@@ -64,7 +64,7 @@ describe('Transfers Resource', function() {
       stripe.transfers.cancel('transferId4');
       expect(stripe.LAST_REQUEST).to.deep.equal({
         method: 'POST',
-        url: '/v1/transfers/transferId4/cancel',
+        url: '/v1/transfers/transferId4/reversals',
         headers: {},
         data: {}
       });
