@@ -141,7 +141,7 @@ stripe.customers.create({
   * [`retrieve(transferId)`](https://stripe.com/docs/api/node#retrieve_transfer)
   * [`update(transferId[, params])`](https://stripe.com/docs/api/node#update_transfer)
   * [`reverse(transferId[, params])`](https://stripe.com/docs/api/node#create_transfer_reversal)
-  * [`cancel(transferId[, params])`](https://stripe.com/docs/api/node#create_transfer_reversal)
+  * [`cancel(transferId[, params])`](https://stripe.com/docs/api/node#create_transfer_reversal) (alias for `reverse`)
   * [`listTransactions(transferId[, params])`](https://stripe.com/docs/api/curl#list_transfers)
   * `setMetadata(transferId, metadataObject)` ([metadata info](https://stripe.com/docs/api/node#metadata))
   * `setMetadata(transferId, key, value)`
